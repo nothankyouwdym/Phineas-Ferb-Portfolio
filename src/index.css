@@ -38,6 +38,12 @@ body {
   margin: 0;
 }
 
+
+span{
+  display: inline-flexbox;
+  margin-inline: 10px;
+}
+
 /**
  * Render the `main` element consistently in IE.
  */
