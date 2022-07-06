@@ -2,13 +2,13 @@ import { Link } from "react-router-dom"
 
 
 
-const Nav = () =>{
+const Navbar = () =>{
   return(
     <nav>
       <span><Link to="/">Home</Link></span>
-      <span><Link to="/About-Us">About Us</Link></span>
+      <span><Link to="/">About Us</Link></span>
     </nav>
   )
 }
 
-export default Nav
+export default Navbar
